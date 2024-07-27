@@ -16,3 +16,22 @@
   gap: 10%;
   padding: 1% 0;
 }
+.movie{
+  background-color:rgb(173, 188, 159);
+  color:antiquewhite;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  width: 500px;
+  border: 1px solid #4d4646;
+  border-radius: 8px;
+  padding: 24px 16px;
+  margin: 16px;
+  box-shadow: 0 4px 8px rgba(52, 78, 34, 0.1);
+  transition: box-shadow 0.3s;
+}
+.movie:hover{
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+

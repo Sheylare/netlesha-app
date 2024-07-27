@@ -1,11 +1,21 @@
+
+import { Route, Routes } from "react-router-dom";
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'
-import Homepage from './pages/Homepage'
+import HomePage from "./pages/Homepage";
+import MoviesList from "./pages/MoviesList";
+import MovieDetails from "./pages/MovieDetails"
 
 function App() {
+  
 
   return (
     <>
-      <Homepage></Homepage>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/movies" element={<MoviesList />} />
+        <Route path="/movies/:movieId" element={<MovieDetails />} />
+      </Routes>
     </>
   )
 }
