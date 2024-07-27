@@ -1,6 +1,6 @@
 import NavBar from "../components/NavBar";
 
-function Homepage() {
+function HomePage() {
   return (
     <div className="main-page">
       <NavBar></NavBar>
@@ -8,4 +8,4 @@ function Homepage() {
   );
 }
 
-export default Homepage;
+export default HomePage;
